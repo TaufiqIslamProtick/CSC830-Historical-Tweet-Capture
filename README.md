@@ -10,8 +10,10 @@ This repository collects historical tweets. I collected the Twets using Twitter 
   4. Add the app you created in Step 2 in this developer environment.
   5. You are done creating a Sandbox!
 
-### Caution!
-This is a free version that uses the Twitter Full Archive API. It has its limits. You can only collect at most 5000 tweets per month. And there is a limit to the number of requests that you can do per minute, which is 30. So if you plan to runa  script exceeding any of the limits (per month or per minute), your account will lose the privilege of using the API for that month. So in the script the looping part is strictly commented out so prevent one from running out of request while having some few trials to call the API.
+  ### Caution!
+    This is a free version that uses the Twitter Full Archive API. It has its limits. You can only collect at most 5000 tweets per month. And there is a limit to the number of requests that you can do per minute, which is 30. So if you plan to runa  script exceeding any of the limits (per month or per minute), your account will lose the privilege of using the API for that month. So in the script the looping part is strictly commented out so prevent one from running out of request while having some few trials to call the API.
+
+## 
 
 
 
