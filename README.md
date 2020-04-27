@@ -5,8 +5,8 @@ This repository collects historical tweets. I collected the Twets using Twitter 
 ## Requirements (Assuming you are logged in to your Twitter user account)
 
   1. You must have a Twitter developer account. [This](https://www.youtube.com/watch?v=2o_qt9cXicM&t=26s) is a good video to follow how to create one.
-  2. After you have a developer account, you will be able to create apps [here] (https://developer.twitter.com/en/apps). Create an app at this point.
-  3. Now create a development environment going in [this] (https://developer.twitter.com/en/account/environments) page. Create a developer environment in the Section that says ```Search Tweets: Full ArchiveSandbox```.
+  2. After you have a developer account, you will be able to create apps [here](https://developer.twitter.com/en/apps). Create an app at this point.
+  3. Now create a development environment going in [this](https://developer.twitter.com/en/account/environments) page. Create a developer environment in the Section that says ```Search Tweets: Full ArchiveSandbox```.
   4. Add the app you created in Step 2 in this developer environment.
   5. You are done creating a Sandbox!
 
