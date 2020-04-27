@@ -20,6 +20,11 @@ Bearer token is required to use the Sandbox API. Although to capture live tweets
 ```API Key``` and ```API Secret key``` are the keys for your app that you created in step 2 of "Requirements". You will get a response in the terminal (for a successfull request) as follows:
 <br /> ```"token_type":"bearer","access_token":"Your LONG bearer token here"```
 
+### How to use the code
+
+  1. In ```appCredentials.py```, you will find two variables ```devEnvLabel``` and ```bearerToken```, they are currently assigned empty strings because they are sensitive information. Do not upload any of your tokens on GitHub. In your personal computer, clone the repository and fill up ```devEnvLabel``` with the environment name that you created in Step 3 of "Requirements". Fill up the ```bearerToken``` variable using the bearer token you just created in the terminal.
+  2. At this point you are all set. 
+
 
 
 
