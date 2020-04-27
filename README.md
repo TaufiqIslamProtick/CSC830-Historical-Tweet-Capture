@@ -15,7 +15,7 @@ This is a free version that uses the Twitter Full Archive API. It has its limits
 
 ## How to create a bearer token
 Bearer token is required to use the Sandbox API. Although to capture live tweets, bearer tokes are not needed. As we are interested more in historical tweets, we are not using the twitter API for live tweets collection. To generate the bearer token, go to a bash terminal and type:
-```curl -u '<API key:>:<API Secret Key>'   --data 'grant_type=client_credentials'   'https://api.twitter.com/oauth2/token'```
+<br /> ```curl -u '<API key:>:<API Secret Key>'   --data 'grant_type=client_credentials'   'https://api.twitter.com/oauth2/token'```
 
 
 
