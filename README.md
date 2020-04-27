@@ -13,7 +13,9 @@ This repository collects historical tweets. I collected the Twets using Twitter 
 ### Caution!
 This is a free version that uses the Twitter Full Archive API. It has its limits. You can only collect at most 5000 tweets per month. And there is a limit to the number of requests that you can do per minute, which is 30. So if you plan to runa  script exceeding any of the limits (per month or per minute), your account will lose the privilege of using the API for that month. So in the script the looping part is strictly commented out so prevent one from running out of request while having some few trials to call the API.
 
-## 
+## How to create a bearer token
+Bearer token is required to use the Sandbox API. Although to capture live tweets, bearer tokes are not needed. As we are interested more in historical tweets, we are not using the twitter API for live tweets collection. To generate the bearer token, go to a bash terminal and type:
+```curl -u '<API key:>:<API Secret Key>'   --data 'grant_type=client_credentials'   'https://api.twitter.com/oauth2/token'```
 
 
 
