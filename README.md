@@ -1,9 +1,14 @@
 # CSC830-Historical-Tweet-Capture
 
-This repository collects historical tweets. I had to create 
+This repository collects historical tweets. I collected the Twets using Twitter Sandbox API (free version). To use the Sandbox API, you need to fulfill the followinhg requirements.
 
-## Requirements
+## Requirements (Assuming you are logged in to your Twitter user account)
 
-The following are some requirements to use Twitter's Sandbox API.
-  1. The user must have a Twitter developer account. For creating a developer account, [this](https://www.youtube.com/watch?v=2o_qt9cXicM&t=26s) video would be helpful.
-  2. Sandbox is a Dev Environment, exclusively used to collect archived tweets. To use this sandbox, one must add an app to the Dev Environment. So before creating a Sandbox environment, one must create an app. 
+  1. You must have a Twitter developer account. [This](https://www.youtube.com/watch?v=2o_qt9cXicM&t=26s) is a good video to follow how to create one.
+  2. After you have a developer account, you will be able to create apps [here] (https://developer.twitter.com/en/apps). Create an app at this point.
+  3. Now create a development environment going in [this] (https://developer.twitter.com/en/account/environments) page. Create a developer environment in the Section that says ```Search Tweets: Full ArchiveSandbox```.
+  4. Add the app you created in Step 2 in this developer environment.
+  5. You are done creating a Sandbox!
+
+
+
